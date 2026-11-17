@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T21:00:04+09:00",
+  "generatedAt": "2026-11-18T06:00:04+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-17T21:00:04+09:00",
+      "fetchedAt": "2026-11-18T06:00:04+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,15 +14,15 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-17T21:00:04+09:00",
-      "itemCount": 837,
+      "fetchedAt": "2026-11-18T06:00:04+09:00",
+      "itemCount": 838,
       "error": null
     },
     {
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-17T21:00:04+09:00",
+      "fetchedAt": "2026-11-18T06:00:04+09:00",
       "itemCount": 4,
       "error": null
     }
@@ -26486,6 +26486,40 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000025&bnefType=all&svcId=O00027100002",
       "applyUrl": null,
       "summary": "위기 청소년을 직접 찾아가는 심리적·정서적 지지 제공",
+      "changed": null
+    },
+    {
+      "id": "gov24:O00027400004",
+      "source": "gov24",
+      "category": "benefit",
+      "title": "진도 청년드림 만원주택 공급(공공임대주택)",
+      "org": "전남개발공사",
+      "kind": "기타",
+      "region": {
+        "sido": "전남광주통합특별시",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2026-09-30",
+      "apply": {
+        "status": "date",
+        "startDate": "2026-11-17",
+        "startTime": null,
+        "endDate": "2026-11-29",
+        "endTime": null,
+        "raw": "2026.11.17~2026.11.29"
+      },
+      "announce": null,
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": 18,
+        "ageMax": 45,
+        "ageKnown": true,
+        "note": "나이 외 자격은 원문에서 확인"
+      },
+      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2189720&bnefType=all&svcId=O00027400004",
+      "applyUrl": null,
+      "summary": "청년·신혼부부의 주거비 부담 완화와 안정적 지역정착을 위한 공공임대주택 지원 서비스",
       "changed": null
     },
     {
