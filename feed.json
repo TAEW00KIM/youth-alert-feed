@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T06:00:02+09:00",
+  "generatedAt": "2026-11-17T11:00:01+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-17T06:00:02+09:00",
+      "fetchedAt": "2026-11-17T11:00:01+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,15 +14,15 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-17T06:00:02+09:00",
-      "itemCount": 854,
+      "fetchedAt": "2026-11-17T11:00:01+09:00",
+      "itemCount": 837,
       "error": null
     },
     {
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-17T06:00:02+09:00",
+      "fetchedAt": "2026-11-17T11:00:01+09:00",
       "itemCount": 4,
       "error": null
     }
@@ -1930,12 +1930,12 @@
       },
       "postedDate": "2022-06-17",
       "apply": {
-        "status": "date",
-        "startDate": "2025-01-01",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2025-12-31",
+        "endDate": null,
         "endTime": null,
-        "raw": "2025-01-01~2025-12-31"
+        "raw": "20260101~20261231"
       },
       "announce": null,
       "documentsRaw": null,
@@ -1948,7 +1948,11 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809404&bnefType=all&svcId=149200005016",
       "applyUrl": null,
       "summary": "5인이상 기업에서 취업애로청년을 정규직 채용, 6개월이상 고용유지 시 지원금 지원",
-      "changed": null
+      "changed": {
+        "field": "apply.end",
+        "previous": "2025-12-31",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:149200005023",
@@ -2092,7 +2096,7 @@
       "category": "benefit",
       "title": "경영실습 임대농장 조성",
       "org": "농림축산식품부",
-      "kind": "기타||기타(교육)",
+      "kind": "기타(교육)",
       "region": {
         "sido": null,
         "sigungu": null,
@@ -3073,6 +3077,40 @@
       "changed": null
     },
     {
+      "id": "gov24:313000000127",
+      "source": "gov24",
+      "category": "benefit",
+      "title": "(마포구)청년 취업준비 비용 지원사업",
+      "org": "서울특별시 마포구",
+      "kind": "현금",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "마포구",
+        "scope": "local"
+      },
+      "postedDate": "2024-12-20",
+      "apply": {
+        "status": "date",
+        "startDate": "2026-02-02",
+        "startTime": null,
+        "endDate": "2026-12-11",
+        "endTime": null,
+        "raw": "2026.02.02~2026.12.11"
+      },
+      "announce": null,
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": 19,
+        "ageMax": 34,
+        "ageKnown": true,
+        "note": "나이 외 자격은 원문에서 확인"
+      },
+      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128502&bnefType=all&svcId=313000000127",
+      "applyUrl": null,
+      "summary": "1인당 최대 10만원",
+      "changed": null
+    },
+    {
       "id": "gov24:313000000155",
       "source": "gov24",
       "category": "benefit",
@@ -3290,12 +3328,12 @@
       },
       "postedDate": "2025-11-28",
       "apply": {
-        "status": "date",
-        "startDate": "2026-05-11",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-06-30",
+        "endDate": null,
         "endTime": null,
-        "raw": "2026.05.11~2026.06.30"
+        "raw": "1차-2026. 5. 11. ~ 6. 31. / 2차-2026. 9. 1. ~ 10. 30"
       },
       "announce": null,
       "documentsRaw": null,
@@ -3308,7 +3346,11 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168327&bnefType=all&svcId=316000000156",
       "applyUrl": null,
       "summary": "검정고시를 합격한 학교 밖 청소년에게 20만원 모바일 상품권을 지원하는 사업이다",
-      "changed": null
+      "changed": {
+        "field": "apply.end",
+        "previous": "2026-06-30",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:318000000104",
@@ -3481,40 +3523,6 @@
       "changed": null
     },
     {
-      "id": "gov24:320000000102",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "으뜸관악 청년통장 지원",
-      "org": "서울특별시 관악구",
-      "kind": "현금",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "관악구",
-        "scope": "local"
-      },
-      "postedDate": "2021-09-23",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-06-08",
-        "startTime": null,
-        "endDate": "2026-06-19",
-        "endTime": "18:00",
-        "raw": "2026. 6. 8.~6.19. 18:00까지"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 18,
-        "ageMax": 34,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000908&bnefType=all&svcId=320000000102",
-      "applyUrl": null,
-      "summary": "만 18~34세 근로 청년에게 청년통장 지원",
-      "changed": null
-    },
-    {
       "id": "gov24:320000000124",
       "source": "gov24",
       "category": "benefit",
@@ -3546,40 +3554,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2110238&bnefType=all&svcId=320000000124",
       "applyUrl": null,
       "summary": "건강관리에 소홀하기 쉬운 청년층 1인 가구 건강검진 무료지원(*관악구에 주민등록을 둔 자)",
-      "changed": null
-    },
-    {
-      "id": "gov24:320000000298",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "관악 미취업청년 어학자격시험 응시료 지원",
-      "org": "서울특별시 관악구",
-      "kind": "현금",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "관악구",
-        "scope": "local"
-      },
-      "postedDate": "2024-08-05",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-09-01",
-        "startTime": "09:00",
-        "endDate": "2026-09-10",
-        "endTime": "18:00",
-        "raw": "2026. 9. 1.(화) 09:00~9. 10.(목) 18:00까지"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2123314&bnefType=all&svcId=320000000298",
-      "applyUrl": null,
-      "summary": "관악구 거주 미취업 청년에게 연 1회 응시료 실비 지원 (최대 10만)",
       "changed": null
     },
     {
@@ -5007,7 +4981,7 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2173528&bnefType=all&svcId=341000000313",
       "applyUrl": null,
-      "summary": "최대30만원 내에서 부동산 중개수수료 및 이사비 실비 지원(생애 1회)",
+      "summary": "최대30만원 내에서 부동산 중개보수 및 이사비 실비 지원(생애 1회)",
       "changed": null
     },
     {
@@ -6206,7 +6180,7 @@
       "category": "benefit",
       "title": "학교밖청소년 수학여행비 지원",
       "org": "대전광역시 유성구",
-      "kind": "기타(교육)||서비스(돌봄)",
+      "kind": "서비스(돌봄)",
       "region": {
         "sido": "대전광역시",
         "sigungu": "유성구",
@@ -6525,7 +6499,7 @@
         "startTime": null,
         "endDate": null,
         "endTime": null,
-        "raw": "상하반기 공고"
+        "raw": "연 2회(상,하반기)"
       },
       "announce": null,
       "documentsRaw": null,
@@ -6537,7 +6511,7 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=809988&bnefType=all&svcId=378000000167",
       "applyUrl": null,
-      "summary": "성남시 다자녀가구(자녀 3명이상)의 셋째 이상 자녀 등록금 지원 학기당 최대 100만원",
+      "summary": "성남시 다자녀가구(자녀 3명이상)의 셋째 이상 자녀 등록금(최대 100만원) 지원",
       "changed": null
     },
     {
@@ -7307,7 +7281,7 @@
         "startTime": null,
         "endDate": null,
         "endTime": null,
-        "raw": "2025. 2~3월"
+        "raw": "매년 2~3월"
       },
       "announce": null,
       "documentsRaw": null,
@@ -7867,40 +7841,6 @@
       "changed": null
     },
     {
-      "id": "gov24:401000000485",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "시흥시 구직 청년 면접정장 대여사업「면접 흥하시흥」 운영",
-      "org": "경기도 시흥시",
-      "kind": "기타",
-      "region": {
-        "sido": "경기도",
-        "sigungu": "시흥시",
-        "scope": "local"
-      },
-      "postedDate": "2024-12-20",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "2026년 2월 중(정확한 시기 미정) ~ 12월 / (예산 소진 시 사업 종료)"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128449&bnefType=all&svcId=401000000485",
-      "applyUrl": null,
-      "summary": "시흥시 청년들에게 면접정장 무료대여 서비스 제공",
-      "changed": null
-    },
-    {
       "id": "gov24:401000000507",
       "source": "gov24",
       "category": "benefit",
@@ -7915,11 +7855,11 @@
       "postedDate": "2025-12-15",
       "apply": {
         "status": "date",
-        "startDate": "2026-11-01",
+        "startDate": "2026-11-16",
         "startTime": null,
-        "endDate": "2026-11-30",
+        "endDate": "2026-11-27",
         "endTime": null,
-        "raw": "2026.11.01~2026.11.30"
+        "raw": "2026.11.16~2026.11.27"
       },
       "announce": null,
       "documentsRaw": null,
@@ -7931,8 +7871,12 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169644&bnefType=all&svcId=401000000507",
       "applyUrl": null,
-      "summary": "지원대상 조건 충족자에게 모바일 시루 20만원 지급",
-      "changed": null
+      "summary": "지원요건을 충족한 대학(원)생에게 시흥화폐 시루 20만 원 지급",
+      "changed": {
+        "field": "apply.end",
+        "previous": "2026-11-30",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:402000000122",
@@ -8544,40 +8488,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1003970&bnefType=all&svcId=406000000115",
       "applyUrl": null,
       "summary": "청년창업자에게 임차료의 50%를 6개월간 지원(월 최대 50만원)",
-      "changed": null
-    },
-    {
-      "id": "gov24:406000000515",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "파주시 청년월세 지원",
-      "org": "경기도 파주시",
-      "kind": "현금",
-      "region": {
-        "sido": "경기도",
-        "sigungu": "파주시",
-        "scope": "local"
-      },
-      "postedDate": "2025-11-20",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "상·하반기 모집 (모집기간 별도 공고)"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2167318&bnefType=all&svcId=406000000515",
-      "applyUrl": null,
-      "summary": "파주시 거주 무주택 청년가구 월세 월 10만원 지원(가구당 최대 120만원/ 생애1회)",
       "changed": null
     },
     {
@@ -9394,40 +9304,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=810108&bnefType=all&svcId=423000000491",
       "applyUrl": null,
       "summary": "19세 이하 자녀가 세 명 이상인 다자녀가구 상하수도 요금 감면 혜택 적용",
-      "changed": null
-    },
-    {
-      "id": "gov24:424000000149",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "삼척향토장학재단 향토 장학금",
-      "org": "강원특별자치도 삼척시",
-      "kind": "현금(장학금)",
-      "region": {
-        "sido": "강원특별자치도",
-        "sigungu": "삼척시",
-        "scope": "local"
-      },
-      "postedDate": "2021-09-23",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "장학금 지급 신청기간 별도공고 예정"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001040&bnefType=all&svcId=424000000149",
-      "applyUrl": null,
-      "summary": "대학생 및 고등학생을 대상으로 장학금 지급",
       "changed": null
     },
     {
@@ -10277,7 +10153,7 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1003813&bnefType=all&svcId=440000000119",
       "applyUrl": null,
-      "summary": "기준중위소득 100% 이하의 청소년에게 학자금, 직업훈련지원금 지원 (300만원 이하)",
+      "summary": "기준중위소득 140% 이하의 청소년에게 학자금, 직업훈련지원금 지원 (연300만원 이하)",
       "changed": null
     },
     {
@@ -10739,9 +10615,9 @@
         "status": "date",
         "startDate": "2026-11-02",
         "startTime": null,
-        "endDate": "2026-11-13",
+        "endDate": "2026-11-20",
         "endTime": null,
-        "raw": "(5차) 2026년 11월 2일(월) ~ 11월 13일(금)"
+        "raw": "(5차) 2026년 11월 2일(월) ~ 11월 20일(금)"
       },
       "announce": null,
       "documentsRaw": null,
@@ -10754,7 +10630,11 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2114602&bnefType=all&svcId=447000000143",
       "applyUrl": null,
       "summary": "새로운 출발을 음성군이 응원합니다!",
-      "changed": null
+      "changed": {
+        "field": "apply.end",
+        "previous": "2026-11-13",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:447000000144",
@@ -11675,40 +11555,6 @@
       "changed": null
     },
     {
-      "id": "gov24:452000000320",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "청년 정장 대여 지원",
-      "org": "충청남도 아산시",
-      "kind": "기타",
-      "region": {
-        "sido": "충청남도",
-        "sigungu": "아산시",
-        "scope": "local"
-      },
-      "postedDate": "2024-12-20",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "’26년 1월 ~ 예산 소진 시까지"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 18,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128411&bnefType=all&svcId=452000000320",
-      "applyUrl": null,
-      "summary": "만 18~39세 아산시 청년 대상으로 정장 대여",
-      "changed": null
-    },
-    {
       "id": "gov24:452000000321",
       "source": "gov24",
       "category": "benefit",
@@ -11777,40 +11623,6 @@
       "changed": null
     },
     {
-      "id": "gov24:452000000325",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "청년 캠핑용품 대여 지원",
-      "org": "충청남도 아산시",
-      "kind": "기타",
-      "region": {
-        "sido": "충청남도",
-        "sigungu": "아산시",
-        "scope": "local"
-      },
-      "postedDate": "2025-12-11",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "2026. 4.~(예정)"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 18,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2169726&bnefType=all&svcId=452000000325",
-      "applyUrl": null,
-      "summary": "청년의 여가생활 지원을 위한 청년 캠핑장비 대여 지원",
-      "changed": null
-    },
-    {
       "id": "gov24:453000000172",
       "source": "gov24",
       "category": "benefit",
@@ -11841,7 +11653,7 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1002597&bnefType=all&svcId=453000000172",
       "applyUrl": null,
-      "summary": "지원대상, 소득기준, 주택기준에 부합하는 신혼가구에 주택 전세자금 대출잔액의 2.5% 지원",
+      "summary": "소득기준, 주택기준 등에 부합하는 신혼가구에 주택 전세자금 대출잔액의 2.5%이내 지원",
       "changed": null
     },
     {
@@ -14259,40 +14071,6 @@
       "changed": null
     },
     {
-      "id": "gov24:489000000143",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "전남청년 문화복지카드",
-      "org": "전남광주통합특별시 보성군",
-      "kind": "이용권",
-      "region": {
-        "sido": "전남광주통합특별시",
-        "sigungu": "보성군",
-        "scope": "local"
-      },
-      "postedDate": "2022-05-04",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "2025-04-03~06-30, 2025-08-01~08-31"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 28,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=808390&bnefType=all&svcId=489000000143",
-      "applyUrl": null,
-      "summary": "도내 2년 이상 계속 거주중인 1997~2006년도 출생자에게 연 25만원 지원",
-      "changed": null
-    },
-    {
       "id": "gov24:489000000418",
       "source": "gov24",
       "category": "benefit",
@@ -14698,40 +14476,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004561&bnefType=all&svcId=494000000140",
       "applyUrl": null,
       "summary": "○ 영암군에 주소를 두고 군 복무 중인 청년에게 상해보험 자동 가입 지원",
-      "changed": null
-    },
-    {
-      "id": "gov24:494000000237",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "전남 청년 근속장려금 지원사업",
-      "org": "전남광주통합특별시 영암군",
-      "kind": "현금",
-      "region": {
-        "sido": "전남광주통합특별시",
-        "sigungu": "영암군",
-        "scope": "local"
-      },
-      "postedDate": "2024-10-24",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "연초 2월경 신청"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 18,
-        "ageMax": 45,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2126215&bnefType=all&svcId=494000000237",
-      "applyUrl": null,
-      "summary": "4년간 1인당 최대 2,000만원 지원(청년 1,500, 기업 500)",
       "changed": null
     },
     {
@@ -15922,40 +15666,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1004999&bnefType=all&svcId=534000000121",
       "applyUrl": null,
       "summary": "기초생활보장수급자 학생에게 장학금 지원",
-      "changed": null
-    },
-    {
-      "id": "gov24:536000000107",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "밀양형 청년내일채움공제",
-      "org": "경상남도 밀양시",
-      "kind": "현금",
-      "region": {
-        "sido": "경상남도",
-        "sigungu": "밀양시",
-        "scope": "local"
-      },
-      "postedDate": "2021-09-23",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "상시신청"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 15,
-        "ageMax": 34,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1000949&bnefType=all&svcId=536000000107",
-      "applyUrl": null,
-      "summary": "청년근무자에게 일시금으로 청년내일채움공제 지원",
       "changed": null
     },
     {
@@ -17829,40 +17539,6 @@
       "changed": null
     },
     {
-      "id": "gov24:569000000346",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "세종시 청년 행정인턴",
-      "org": "세종특별자치시",
-      "kind": "현금",
-      "region": {
-        "sido": "세종특별자치시",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2021-09-23",
-      "apply": {
-        "status": "date",
-        "startDate": "2026-06-24",
-        "startTime": null,
-        "endDate": "2026-06-26",
-        "endTime": null,
-        "raw": "2026.06.24~2026.06.26"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1003137&bnefType=all&svcId=569000000346",
-      "applyUrl": null,
-      "summary": "시정에 대한 이해도를 제고하고 행정업무 체험기회 제공을 통해 청년의 취업역량 강화",
-      "changed": null
-    },
-    {
       "id": "gov24:569000000361",
       "source": "gov24",
       "category": "benefit",
@@ -17894,74 +17570,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1005170&bnefType=all&svcId=569000000361",
       "applyUrl": null,
       "summary": "18세 이상 보호종료아동에게 자립정착금 지원",
-      "changed": null
-    },
-    {
-      "id": "gov24:569000000379",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "세종시 청년 주택임차보증금 이자지원",
-      "org": "세종특별자치시",
-      "kind": "현금(융자)",
-      "region": {
-        "sido": "세종특별자치시",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2023-12-06",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "금년 접수 마감"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2114239&bnefType=all&svcId=569000000379",
-      "applyUrl": null,
-      "summary": "대출한도 1억원 내 저금리(市 4.1% 부담)로 관내 하나은행에 대출추천",
-      "changed": null
-    },
-    {
-      "id": "gov24:569000000389",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "세종시 청년 면접비 지원",
-      "org": "세종특별자치시",
-      "kind": "현금",
-      "region": {
-        "sido": "세종특별자치시",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2024-12-20",
-      "apply": {
-        "status": "date",
-        "startDate": "2024-07-22",
-        "startTime": null,
-        "endDate": "2024-12-15",
-        "endTime": null,
-        "raw": "2024.07.22~2024.12.15"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128545&bnefType=all&svcId=569000000389",
-      "applyUrl": null,
-      "summary": "관내 중소기업 면접시 면접비 지원",
       "changed": null
     },
     {
@@ -18002,9 +17610,9 @@
       "id": "gov24:569000000391",
       "source": "gov24",
       "category": "benefit",
-      "title": "세종시 면접스타일링 지원",
+      "title": "세종시 정장대여 지원",
       "org": "세종특별자치시",
-      "kind": "현금",
+      "kind": "시설이용",
       "region": {
         "sido": "세종특별자치시",
         "sigungu": null,
@@ -18029,7 +17637,7 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128547&bnefType=all&svcId=569000000391",
       "applyUrl": null,
-      "summary": "정장대여(열린옷장), 헤어스타일링(실비지원), 사진촬영(실비지원)",
+      "summary": "현장 방문 면접 정장 대여(정장대여실 운영)",
       "changed": null
     },
     {
@@ -18285,11 +17893,11 @@
       "postedDate": "2025-04-03",
       "apply": {
         "status": "date",
-        "startDate": "2025-07-01",
+        "startDate": "2027-07-01",
         "startTime": null,
-        "endDate": "2025-07-31",
+        "endDate": "2027-07-31",
         "endTime": null,
-        "raw": "2025.07.01~2025.07.31"
+        "raw": "2027. 7. 1. ~ 2027. 7. 31."
       },
       "announce": null,
       "documentsRaw": null,
@@ -18302,7 +17910,11 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2138519&bnefType=all&svcId=571000000190",
       "applyUrl": null,
       "summary": "전세자금 대출 잔액의 1.5% 범위 내 이자 지원(연 최대 100만원)",
-      "changed": null
+      "changed": {
+        "field": "apply.end",
+        "previous": "2025-07-31",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:571000000194",
@@ -19529,40 +19141,6 @@
       "changed": null
     },
     {
-      "id": "gov24:627000000113",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "대구광역시 다자녀가정 고등학교 입학축하금 지원",
-      "org": "대구광역시",
-      "kind": "이용권",
-      "region": {
-        "sido": "대구광역시",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2021-09-23",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-08-24",
-        "startTime": "09:00",
-        "endDate": "2026-09-30",
-        "endTime": "18:00",
-        "raw": "2026.8.24.(월)9:00~9.30.(수)18:00(온라인 24:00)"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 15,
-        "ageMax": 19,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001543&bnefType=all&svcId=627000000113",
-      "applyUrl": null,
-      "summary": "고등학교 입학축하금 둘째자녀 30만원, 셋째자녀 이상 50만원 대구로페이 충전 지원",
-      "changed": null
-    },
-    {
       "id": "gov24:627000000126",
       "source": "gov24",
       "category": "benefit",
@@ -19594,40 +19172,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001819&bnefType=all&svcId=627000000126",
       "applyUrl": null,
       "summary": "저소득 주민(중학생, 고등학생 및 대학생)에게 장학금 지원",
-      "changed": null
-    },
-    {
-      "id": "gov24:627000000128",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "청년사회진입 활동지원사업",
-      "org": "대구광역시",
-      "kind": "이용권",
-      "region": {
-        "sido": "대구광역시",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2021-09-23",
-      "apply": {
-        "status": "date",
-        "startDate": "2025-03-01",
-        "startTime": null,
-        "endDate": "2025-10-15",
-        "endTime": null,
-        "raw": "2025.03.01.~10.15. (매월 20일 ~ 익월 15일 접수, 모집인원 초과 시 선착순 마감)"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=1001821&bnefType=all&svcId=627000000128",
-      "applyUrl": null,
-      "summary": "미취업 청년 대상 1:1 상담연결형 프로그램 수료 시 청년응원카드 지급",
       "changed": null
     },
     {
@@ -21331,40 +20875,6 @@
       "changed": null
     },
     {
-      "id": "gov24:641000000668",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "경기청년 사다리프로그램(해외연수 지원)",
-      "org": "경기도",
-      "kind": "기타(교육)",
-      "region": {
-        "sido": "경기도",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2024-12-20",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "2026. 3월"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128516&bnefType=all&svcId=641000000668",
-      "applyUrl": null,
-      "summary": "해외대학 연수 지원",
-      "changed": null
-    },
-    {
       "id": "gov24:641000000669",
       "source": "gov24",
       "category": "benefit",
@@ -21497,7 +21007,7 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2156429&bnefType=all&svcId=641000000699",
       "applyUrl": null,
-      "summary": "청년 예비창업자·초기창업자 대상 단계별 창업 지원",
+      "summary": "청년 예비창업자 대상 단계별 창업 지원",
       "changed": null
     },
     {
@@ -21888,12 +21398,12 @@
       },
       "postedDate": "2021-09-23",
       "apply": {
-        "status": "unknown",
+        "status": "date",
         "startDate": null,
         "startTime": null,
-        "endDate": null,
+        "endDate": "2026-12-31",
         "endTime": null,
-        "raw": "상시신청"
+        "raw": "2026. 12. 31.까지"
       },
       "announce": null,
       "documentsRaw": null,
@@ -22016,7 +21526,7 @@
       "category": "benefit",
       "title": "희망디딤돌 충북센터(자립준비청년 주거서비스 지원)",
       "org": "충청북도",
-      "kind": "기타(상담)||시설이용",
+      "kind": "기타(상담)",
       "region": {
         "sido": "충청북도",
         "sigungu": null,
@@ -22283,40 +21793,6 @@
       "changed": null
     },
     {
-      "id": "gov24:644000000853",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "2026년 상반기 충청남도 청년 주택임차보증금 이자 지원(2025년 선정자 대상)",
-      "org": "충청남도",
-      "kind": "현금",
-      "region": {
-        "sido": "충청남도",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2025-09-22",
-      "apply": {
-        "status": "date",
-        "startDate": "2026-06-04",
-        "startTime": null,
-        "endDate": "2026-06-12",
-        "endTime": null,
-        "raw": "2026.06.04~2026.06.12"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 18,
-        "ageMax": 40,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2159119&bnefType=all&svcId=644000000853",
-      "applyUrl": null,
-      "summary": "충청남도 청년 주택임차보증금 이자 지원",
-      "changed": null
-    },
-    {
       "id": "gov24:644000000856",
       "source": "gov24",
       "category": "benefit",
@@ -22487,10 +21963,10 @@
       "changed": null
     },
     {
-      "id": "gov24:644000000863",
+      "id": "gov24:644000000864",
       "source": "gov24",
       "category": "benefit",
-      "title": "2026년 충청남도 청년 주택임차보증금 이자 지원(신규 신청자 대상)",
+      "title": "2026년 하반기 충청남도 청년 주택임차보증금 이자 지원(2025년 선정자 대상)",
       "org": "충청남도",
       "kind": "현금",
       "region": {
@@ -22498,26 +21974,26 @@
         "sigungu": null,
         "scope": "local"
       },
-      "postedDate": "2026-10-08",
+      "postedDate": "2026-10-14",
       "apply": {
         "status": "date",
-        "startDate": "2026-10-12",
+        "startDate": "2026-11-01",
         "startTime": null,
-        "endDate": "2026-10-30",
+        "endDate": "2026-12-03",
         "endTime": null,
-        "raw": "2026.10.12~2026.10.30"
+        "raw": "2026.11.01~2026.12.03"
       },
       "announce": null,
       "documentsRaw": null,
       "eligibility": {
-        "ageMin": 19,
-        "ageMax": 39,
+        "ageMin": 18,
+        "ageMax": 40,
         "ageKnown": true,
         "note": "나이 외 자격은 원문에서 확인"
       },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2190022&bnefType=all&svcId=644000000863",
+      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2190223&bnefType=all&svcId=644000000864",
       "applyUrl": null,
-      "summary": "2026. 1. 이후 본인이 납입한 대출이자의 30% ∼ 50%를 지원",
+      "summary": "충청남도 청년 주택임차보증금 이자 지원",
       "changed": null
     },
     {
@@ -23068,7 +22544,7 @@
       "id": "gov24:647000000180",
       "source": "gov24",
       "category": "benefit",
-      "title": "2024년 경북 청년애꿈 수당",
+      "title": "2026년 경북 청년애꿈 수당",
       "org": "경상북도",
       "kind": "현금",
       "region": {
@@ -23745,6 +23221,74 @@
       "changed": null
     },
     {
+      "id": "gov24:650000001105",
+      "source": "gov24",
+      "category": "benefit",
+      "title": "대학생·청년 아르바이트 사업",
+      "org": "제주특별자치도",
+      "kind": "서비스(일자리)",
+      "region": {
+        "sido": "제주특별자치도",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2024-12-19",
+      "apply": {
+        "status": "unknown",
+        "startDate": null,
+        "startTime": null,
+        "endDate": null,
+        "endTime": null,
+        "raw": "매년 6월 중, 12월 중"
+      },
+      "announce": null,
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": 19,
+        "ageMax": 34,
+        "ageKnown": true,
+        "note": "나이 외 자격은 원문에서 확인"
+      },
+      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128288&bnefType=all&svcId=650000001105",
+      "applyUrl": null,
+      "summary": "배치 부서 특성에 맞는 현장업무 및 행정업무지원",
+      "changed": null
+    },
+    {
+      "id": "gov24:650000001106",
+      "source": "gov24",
+      "category": "benefit",
+      "title": "취업준비 청년 자격증 등 응시료 지원 사업",
+      "org": "제주특별자치도",
+      "kind": "현금",
+      "region": {
+        "sido": "제주특별자치도",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2024-12-19",
+      "apply": {
+        "status": "unknown",
+        "startDate": null,
+        "startTime": null,
+        "endDate": null,
+        "endTime": null,
+        "raw": "매년 2월~예산소진 시까지"
+      },
+      "announce": null,
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": 19,
+        "ageMax": 39,
+        "ageKnown": true,
+        "note": "나이 외 자격은 원문에서 확인"
+      },
+      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128290&bnefType=all&svcId=650000001106",
+      "applyUrl": null,
+      "summary": "자격증 등 응시료 실비 지원(1인 10만원 범위 내 횟수제한없이 지원 가능)",
+      "changed": null
+    },
+    {
       "id": "gov24:650000001112",
       "source": "gov24",
       "category": "benefit",
@@ -23949,6 +23493,40 @@
       "changed": null
     },
     {
+      "id": "gov24:650000001162",
+      "source": "gov24",
+      "category": "benefit",
+      "title": "청년어업인 영어정착지원",
+      "org": "제주특별자치도",
+      "kind": "현금",
+      "region": {
+        "sido": "제주특별자치도",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2026-10-27",
+      "apply": {
+        "status": "unknown",
+        "startDate": null,
+        "startTime": null,
+        "endDate": null,
+        "endTime": null,
+        "raw": "사업대상자 모집공고기간 내 신청"
+      },
+      "announce": null,
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": 18,
+        "ageMax": 39,
+        "ageKnown": true,
+        "note": "나이 외 자격은 원문에서 확인"
+      },
+      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2190622&bnefType=all&svcId=650000001162",
+      "applyUrl": null,
+      "summary": "청년어업인 대상 최대 월 110만원 최장 3년 지원",
+      "changed": null
+    },
+    {
       "id": "gov24:653000000015",
       "source": "gov24",
       "category": "benefit",
@@ -23965,9 +23543,9 @@
         "status": "date",
         "startDate": "2026-03-16",
         "startTime": null,
-        "endDate": "2026-04-24",
+        "endDate": "2026-07-24",
         "endTime": null,
-        "raw": "2026.03.16~2026.04.24"
+        "raw": "2026.03.16~2026.07.24"
       },
       "announce": null,
       "documentsRaw": null,
@@ -23980,7 +23558,11 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2147854&bnefType=all&svcId=653000000015",
       "applyUrl": null,
       "summary": "- 매월 20만원(청년 10 + 기업 5 + 도시군 5), 3년 지원하여 720만원 혜택",
-      "changed": null
+      "changed": {
+        "field": "apply.end",
+        "previous": "2026-04-24",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:654000000008",
@@ -27315,108 +26897,6 @@
       "changed": null
     },
     {
-      "id": "gov24:O00051300004",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "지역상생 장학생",
-      "org": "재단법인시흥시인재양성재단",
-      "kind": "현금(장학금)",
-      "region": {
-        "sido": "경기도",
-        "sigungu": "시흥시",
-        "scope": "local"
-      },
-      "postedDate": "2022-07-15",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "접수기관 별 상이"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 16,
-        "ageMax": 35,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2000714&bnefType=all&svcId=O00051300004",
-      "applyUrl": null,
-      "summary": "시흥시 소상공인가정 자녀, 시흥시 산업단지입주기업 재직자 자녀",
-      "changed": null
-    },
-    {
-      "id": "gov24:O00051300015",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "시흥시인재양성재단 장학생 선발 안내",
-      "org": "재단법인시흥시인재양성재단",
-      "kind": "현금(장학금)",
-      "region": {
-        "sido": "경기도",
-        "sigungu": "시흥시",
-        "scope": "local"
-      },
-      "postedDate": "2025-12-29",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "접수기관 별 상이"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 7,
-        "ageMax": 35,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2171016&bnefType=all&svcId=O00051300015",
-      "applyUrl": null,
-      "summary": "학생 또는 법정 보호자 시흥시 1년 이상 연속 거주자 중 전형별 선발요건 충족 자",
-      "changed": null
-    },
-    {
-      "id": "gov24:O00051300016",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "추천 장학생",
-      "org": "재단법인시흥시인재양성재단",
-      "kind": "현금(장학금)",
-      "region": {
-        "sido": "경기도",
-        "sigungu": "시흥시",
-        "scope": "local"
-      },
-      "postedDate": "2026-01-02",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "전형별 상이"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": 7,
-        "ageMax": 35,
-        "ageKnown": true,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2170963&bnefType=all&svcId=O00051300016",
-      "applyUrl": null,
-      "summary": "시흥시 이주배경 가정의 자녀 또는 학교밖청소년 중 공신력 있는 기관 추천자",
-      "changed": null
-    },
-    {
       "id": "gov24:O00051500001",
       "source": "gov24",
       "category": "benefit",
@@ -27550,40 +27030,6 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001555&bnefType=all&svcId=O00055000002",
       "applyUrl": null,
       "summary": "9~24세 청소년 대상으로 성격, 진로, 또래관계 관련 상담 서비스",
-      "changed": null
-    },
-    {
-      "id": "gov24:O00072800005",
-      "source": "gov24",
-      "category": "benefit",
-      "title": "광주광역시 청년창업 특례보증 안내",
-      "org": "광주신용보증재단",
-      "kind": "현금(융자)",
-      "region": {
-        "sido": null,
-        "sigungu": null,
-        "scope": "unknown"
-      },
-      "postedDate": "2024-12-18",
-      "apply": {
-        "status": "unknown",
-        "startDate": null,
-        "startTime": null,
-        "endDate": null,
-        "endTime": null,
-        "raw": "매년 3월 중 ~ 자금 소진 시까지"
-      },
-      "announce": null,
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "나이 외 자격은 원문에서 확인"
-      },
-      "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2128268&bnefType=all&svcId=O00072800005",
-      "applyUrl": null,
-      "summary": "○보증지원 내용 - 본 건 기준 최대 5천만원 이내 - 1년간 3.0% 이자지원",
       "changed": null
     },
     {
@@ -28349,11 +27795,11 @@
       "postedDate": "2022-07-15",
       "apply": {
         "status": "date",
-        "startDate": "2026-11-01",
+        "startDate": "2026-11-02",
         "startTime": null,
-        "endDate": "2026-11-30",
+        "endDate": "2026-11-12",
         "endTime": null,
-        "raw": "2026.11.01.~2026.11.30."
+        "raw": "2026.11.02.~2026.11.12."
       },
       "announce": null,
       "documentsRaw": null,
@@ -28366,7 +27812,11 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001710&bnefType=all&svcId=O00096800001",
       "applyUrl": null,
       "summary": "목포소재 대학생 및 인근지역 대학생 중 성적이 우수하며 모범적인 학생에게 장학금 지급",
-      "changed": null
+      "changed": {
+        "field": "apply.end",
+        "previous": "2026-11-30",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:O00096800002",
@@ -28385,9 +27835,9 @@
         "status": "date",
         "startDate": "2026-04-20",
         "startTime": null,
-        "endDate": "2026-05-14",
+        "endDate": "2026-05-08",
         "endTime": null,
-        "raw": "2026.04.20.~2026.05.14."
+        "raw": "2026.04.20.~2026.05.8."
       },
       "announce": null,
       "documentsRaw": null,
@@ -28400,7 +27850,11 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2001856&bnefType=all&svcId=O00096800002",
       "applyUrl": null,
       "summary": "학업성적 우수 대학생에게 장학금 지급",
-      "changed": null
+      "changed": {
+        "field": "apply.end",
+        "previous": "2026-05-14",
+        "detectedAt": "2026-11-17T11:00:01+09:00"
+      }
     },
     {
       "id": "gov24:O00099500001",
@@ -29623,7 +29077,7 @@
       },
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=10578&bnefType=all&svcId=SD0000010578",
       "applyUrl": null,
-      "summary": "농어촌 출신 대학생에게 등록금을 전액 무이자 융자",
+      "summary": "농어촌 출신 대학생 및 대학원생에게 등록금을 전액 무이자 융자",
       "changed": null
     },
     {
