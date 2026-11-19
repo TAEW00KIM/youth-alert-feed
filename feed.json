@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T11:00:02+09:00",
+  "generatedAt": "2026-11-19T16:00:01+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-19T11:00:02+09:00",
+      "fetchedAt": "2026-11-19T16:00:01+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,7 +14,7 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-19T11:00:02+09:00",
+      "fetchedAt": "2026-11-19T16:00:01+09:00",
       "itemCount": 838,
       "error": null
     },
@@ -22,12 +22,430 @@
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-19T11:00:02+09:00",
-      "itemCount": 4,
+      "fetchedAt": "2026-11-19T16:00:01+09:00",
+      "itemCount": 6,
       "error": null
     }
   ],
   "items": [
+    {
+      "id": "soco:6806",
+      "source": "soco",
+      "category": "housing",
+      "title": "광운대역 현대프라힐스 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "노원구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "00:00",
+        "endDate": "2026-11-23",
+        "endTime": "23:00",
+        "raw": "‘26. 11. 23. (월) 00:00 ~ 23:00"
+      },
+      "announce": {
+        "date": "2026-11-25",
+        "time": "16:00",
+        "raw": "‘26. 11. 25. (수) 16:00"
+      },
+      "documentsRaw": "‘26. 11. 26. (목)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6806&menuNo=400008",
+      "applyUrl": "https://kws-hdprahills.co.kr",
+      "summary": "총 275세대 중 금회 추가공급 공공지원민간임대 1세대 (일반공급 1세대)",
+      "changed": null
+    },
+    {
+      "id": "soco:6805",
+      "source": "soco",
+      "category": "housing",
+      "title": "동묘앞역 청계로벤하임 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "종로구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "00:00",
+        "endDate": "2026-11-23",
+        "endTime": "23:00",
+        "raw": "‘26. 11. 23. (월) 00:00 ~ 23:00"
+      },
+      "announce": {
+        "date": "2026-11-24",
+        "time": "17:00",
+        "raw": "‘26. 11. 24. (화) 17:00"
+      },
+      "documentsRaw": "‘26. 11. 25 (수)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6805&menuNo=400008",
+      "applyUrl": "https://naver.me/FG3to9pz",
+      "summary": "총 139세대 중 금회 추가모집 공공지원민간임대 1세대 (일반공급 1세대)",
+      "changed": null
+    },
+    {
+      "id": "soco:6804",
+      "source": "soco",
+      "category": "housing",
+      "title": "상봉역 제이스타상봉 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "중랑구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "10:00",
+        "endDate": "2026-11-23",
+        "endTime": "23:00",
+        "raw": "‘26. 11. 23. (월) 10:00 ~ 23:00"
+      },
+      "announce": {
+        "date": "2026-11-25",
+        "time": "15:00",
+        "raw": "‘26. 11. 25. (수) 15:00"
+      },
+      "documentsRaw": "‘26. 11. 27. (금)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6804&menuNo=400008",
+      "applyUrl": "https://naver.me/5WUROTTd",
+      "summary": "총 77세대 중 금회 추가공급 공공지원민간임대 2세대 (일반공급 2세대)",
+      "changed": null
+    },
+    {
+      "id": "soco:6803",
+      "source": "soco",
+      "category": "housing",
+      "title": "쌍문역 인히어쌍문 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "도봉구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-25",
+        "startTime": "00:00",
+        "endDate": "2026-11-25",
+        "endTime": "23:00",
+        "raw": "‘26. 11. 25. (수) 00:00 ~ 23:00"
+      },
+      "announce": {
+        "date": "2026-11-26",
+        "time": "17:00",
+        "raw": "‘26. 11. 26. (목) 17:00"
+      },
+      "documentsRaw": "‘26. 11. 30. (월)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6803&menuNo=400008",
+      "applyUrl": "https://naver.me/GIIBJJa4",
+      "summary": "총 288세대 중 금회 추가모집 공공지원민간임대 5세대 (특별공급 3세대, 일반공급 2세대)",
+      "changed": null
+    },
+    {
+      "id": "soco:6802",
+      "source": "soco",
+      "category": "housing",
+      "title": "구로디지털단지역 유벤투스 240 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "관악구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "00:00",
+        "endDate": "2026-11-23",
+        "endTime": "23:00",
+        "raw": "‘26. 11. 23. (월) 00:00 ~ 23:00"
+      },
+      "announce": {
+        "date": "2026-11-24",
+        "time": "17:00",
+        "raw": "‘26. 11. 24. (화) 17:00"
+      },
+      "documentsRaw": "추후 개별 연락",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6802&menuNo=400008",
+      "applyUrl": "https://naver.me/xB79Y36D",
+      "summary": "총 240세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
+      "changed": null
+    },
+    {
+      "id": "soco:6801",
+      "source": "soco",
+      "category": "housing",
+      "title": "개봉역 세이지움 개봉 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "구로구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "00:00",
+        "endDate": "2026-11-24",
+        "endTime": "23:00",
+        "raw": "‘26. 11. 23. (월) 00:00 ~ 11. 24. (화) 23:00"
+      },
+      "announce": {
+        "date": "2026-11-25",
+        "time": "17:00",
+        "raw": "‘26. 11. 25. (수) 17:00"
+      },
+      "documentsRaw": "‘26. 11. 26. (목) ~ 11. 27. (금)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6801&menuNo=400008",
+      "applyUrl": "https://naver.me/Ix0OmoxI",
+      "summary": "총 605세대 중 금회 추가모집 공공지원민간임대 2세대 (특별공급 1세대, 일반공급 1세대)",
+      "changed": null
+    },
+    {
+      "id": "soco:6800",
+      "source": "soco",
+      "category": "housing",
+      "title": "서초역 서초꽃마을 주얼리 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "서초구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "10:00",
+        "endDate": "2026-11-23",
+        "endTime": "17:00",
+        "raw": "‘26. 11. 23. (월) 10:00 ~ 17:00"
+      },
+      "announce": {
+        "date": "2026-11-24",
+        "time": "15:00",
+        "raw": "‘26. 11. 24. (화) 15:00"
+      },
+      "documentsRaw": "‘26. 11. 25. (수) ~ 11. 27. (금)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6800&menuNo=400008",
+      "applyUrl": "https://seocho1502.qshop.ai",
+      "summary": "총 280세대 중 금회 추가모집 공공지원민간임대 2세대 (일반공급 2세대)",
+      "changed": null
+    },
+    {
+      "id": "soco:6799",
+      "source": "soco",
+      "category": "housing",
+      "title": "강변역 비바힐스강변 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "광진구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "10:00",
+        "endDate": "2026-11-23",
+        "endTime": "16:00",
+        "raw": "‘26. 11. 23. (월) 10:00 ~ 16:00"
+      },
+      "announce": {
+        "date": "2026-11-24",
+        "time": "11:00",
+        "raw": "‘26. 11. 24. (화) 11:00"
+      },
+      "documentsRaw": "‘26. 11. 25. (수) ~ 11. 26. (목)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6799&menuNo=400008",
+      "applyUrl": "https://naver.me/xaT4bxop",
+      "summary": "총 98세대 중 금회 추가모집 공공지원민간임대 1세대 (특별공급 1세대)",
+      "changed": null
+    },
+    {
+      "id": "soco:6798",
+      "source": "soco",
+      "category": "housing",
+      "title": "미아사거리역 미아 헤리츠타워 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "성북구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "09:00",
+        "endDate": "2026-11-25",
+        "endTime": "23:00",
+        "raw": "‘26. 11. 23. (월) 09:00 ~ 11. 25. (수) 23:00"
+      },
+      "announce": {
+        "date": "2026-11-26",
+        "time": "17:00",
+        "raw": "‘26. 11. 26. (목) 17:00"
+      },
+      "documentsRaw": "추후 개별 연락",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6798&menuNo=400008",
+      "applyUrl": "https://naver.me/GprRXGkx",
+      "summary": "총 254세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
+      "changed": null
+    },
+    {
+      "id": "soco:6797",
+      "source": "soco",
+      "category": "housing",
+      "title": "왕십리역 라봄성동 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "성동구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-20",
+        "startTime": "10:00",
+        "endDate": "2026-11-23",
+        "endTime": "10:00",
+        "raw": "‘26. 11. 20.(금) 10:00 ~ 11. 23. (월) 10:00"
+      },
+      "announce": {
+        "date": "2026-11-25",
+        "time": "13:00",
+        "raw": "‘26. 11. 25. (수) 13:00"
+      },
+      "documentsRaw": "개별 안내",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6797&menuNo=400008",
+      "applyUrl": "https://naver.me/xfblPGw",
+      "summary": "총 346세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
+      "changed": null
+    },
+    {
+      "id": "soco:6796",
+      "source": "soco",
+      "category": "housing",
+      "title": "장한평역 유니트125(UNIT125) 추가모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 추가모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "동대문구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-11-23",
+        "startTime": "09:00",
+        "endDate": "2026-11-24",
+        "endTime": "24:00",
+        "raw": "‘26. 11. 23. (월) 09:00 ~ 11. 24. (화) 24:00"
+      },
+      "announce": {
+        "date": "2026-11-25",
+        "time": "12:00",
+        "raw": "‘26. 11. 25. (수) 12:00"
+      },
+      "documentsRaw": "‘26. 11. 25. (수) 12:00 ~ 11. 26. (목) 18:00",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6796&menuNo=400008",
+      "applyUrl": "https://unit125.shineui.kr/",
+      "summary": "총 125세대 중 금회 추가모집 공공지원민간임대 1세대 (특별공급 1세대)",
+      "changed": null
+    },
     {
       "id": "soco:6732",
       "source": "soco",
@@ -748,424 +1166,6 @@
       "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6711&menuNo=400008",
       "applyUrl": "https://naver.me/GJZnjeB2",
       "summary": "총 409세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
-      "changed": null
-    },
-    {
-      "id": "soco:6710",
-      "source": "soco",
-      "category": "housing",
-      "title": "태릉입구역 이니티움 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "노원구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-29",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-11-02",
-        "startTime": "09:00",
-        "endDate": "2026-11-03",
-        "endTime": "17:00",
-        "raw": "‘26. 11. 02. (월) 09:00 ~ 11. 03. (화) 17:00"
-      },
-      "announce": {
-        "date": "2026-11-04",
-        "time": "17:00",
-        "raw": "‘26. 11. 04. (수) 17:00"
-      },
-      "documentsRaw": "‘26. 11. 05. (목) 17:00 ~",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6710&menuNo=400008",
-      "applyUrl": "https://forms.gle/fZaqfWfGre4f1yqLA",
-      "summary": "총 100세대 중 금회 추가모집 공공지원민간임대 2세대 (특별공급 2세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6709",
-      "source": "soco",
-      "category": "housing",
-      "title": "노량진역 한강더퍼스트타워 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "동작구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-29",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-11-02",
-        "startTime": "10:00",
-        "endDate": "2026-11-02",
-        "endTime": "18:00",
-        "raw": "‘26. 11. 02. (월) 10:00 ~ 18:00"
-      },
-      "announce": {
-        "date": "2026-11-03",
-        "time": "14:00",
-        "raw": "‘26. 11. 03. (화) 14:00"
-      },
-      "documentsRaw": "~ ‘26. 11. 05. (목)",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6709&menuNo=400008",
-      "applyUrl": "https://thefirsttower.imweb.me",
-      "summary": "총 260세대 중 금회 추가모집 공공지원민간임대 2세대 (일반공급 2세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6708",
-      "source": "soco",
-      "category": "housing",
-      "title": "노량진역 더써밋타워 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "동작구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-29",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-11-02",
-        "startTime": "10:00",
-        "endDate": "2026-11-02",
-        "endTime": "18:00",
-        "raw": "‘26. 11. 02. (월) 10:00 ~ 18:00"
-      },
-      "announce": {
-        "date": "2026-11-03",
-        "time": "14:00",
-        "raw": "‘26. 11. 03. (화) 14:00"
-      },
-      "documentsRaw": "~ ‘26. 11. 05. (목)",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6708&menuNo=400008",
-      "applyUrl": "https://thesummittower.co.kr/",
-      "summary": "총 299세대 중 금회 추가모집 공공지원민간임대 5세대 (특별공급 1세대, 일반공급 4세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6707",
-      "source": "soco",
-      "category": "housing",
-      "title": "청량리역 퀸즈W 청량리역 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "동대문구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-22",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-26",
-        "startTime": "00:00",
-        "endDate": "2026-10-26",
-        "endTime": "23:00",
-        "raw": "‘26. 10. 26. (월) 00:00 ~ 23:00"
-      },
-      "announce": {
-        "date": "2026-10-27",
-        "time": "17:00",
-        "raw": "‘26. 10. 27. (화) 17:00"
-      },
-      "documentsRaw": "추후 개별 연락",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6707&menuNo=400008",
-      "applyUrl": "https://naver.me/539uQJj3",
-      "summary": "총 206세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
-      "changed": null
-    },
-    {
-      "id": "soco:6706",
-      "source": "soco",
-      "category": "housing",
-      "title": "구로디지털단지역 유벤투스 240 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "관악구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-22",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-26",
-        "startTime": "00:00",
-        "endDate": "2026-10-28",
-        "endTime": "23:00",
-        "raw": "‘26. 10. 26. (월) ~ 10. 28. (수) 00:00 ~ 23:00"
-      },
-      "announce": {
-        "date": "2026-10-29",
-        "time": "17:00",
-        "raw": "‘26. 10. 29. (목) 17:00"
-      },
-      "documentsRaw": "추후 개별 연락",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6706&menuNo=400008",
-      "applyUrl": "https://naver.me/5WUkleHI",
-      "summary": "총 240세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
-      "changed": null
-    },
-    {
-      "id": "soco:6705",
-      "source": "soco",
-      "category": "housing",
-      "title": "신림역 최강타워 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "관악구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-22",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-23",
-        "startTime": "10:00",
-        "endDate": "2026-10-26",
-        "endTime": "23:00",
-        "raw": "‘26. 10. 23. (금) 10:00 ~ 10. 26. (월) 23:00"
-      },
-      "announce": {
-        "date": "2026-10-27",
-        "time": "11:00",
-        "raw": "‘26. 10. 27. (화) 11:00"
-      },
-      "documentsRaw": "~ ‘26. 10. 28. (수)",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6705&menuNo=400008",
-      "applyUrl": "https://naver.me/GprzO4bt",
-      "summary": "총 299세대 중 금회 추가모집 공공지원민간임대 1세대 (일반공급 1세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6704",
-      "source": "soco",
-      "category": "housing",
-      "title": "상봉역 상봉동양엔파트 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "중랑구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-22",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-26",
-        "startTime": "10:00",
-        "endDate": "2026-10-26",
-        "endTime": "23:00",
-        "raw": "‘26. 10. 26. (월) 10:00 ~ 23:00"
-      },
-      "announce": {
-        "date": "2026-10-27",
-        "time": "16:00",
-        "raw": "‘26. 10. 27. (화) 16:00"
-      },
-      "documentsRaw": "~ ‘26. 11. 01. (일) 23:00",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6704&menuNo=400008",
-      "applyUrl": "https://naver.me/GDQRTb1i",
-      "summary": "총 299세대 중 금회 추가모집 공공지원민간임대 1세대 (특별공급 1세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6703",
-      "source": "soco",
-      "category": "housing",
-      "title": "화랑대역 에이트플레이스 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "중랑구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-22",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-23",
-        "startTime": "09:00",
-        "endDate": "2026-10-28",
-        "endTime": "23:00",
-        "raw": "‘26. 10. 23.(금) 09:00 ~ 10. 28. (수) 23:00"
-      },
-      "announce": {
-        "date": "2026-10-29",
-        "time": "17:00",
-        "raw": "‘26. 10. 29. (목) 17:00"
-      },
-      "documentsRaw": "추후 개별 연락",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6703&menuNo=400008",
-      "applyUrl": "https://naver.me/5PW037UH",
-      "summary": "총 724세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
-      "changed": null
-    },
-    {
-      "id": "soco:6702",
-      "source": "soco",
-      "category": "housing",
-      "title": "길동역 길동생활(B동) 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "강동구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-15",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-19",
-        "startTime": "09:00",
-        "endDate": "2026-10-20",
-        "endTime": "18:00",
-        "raw": "‘26. 10. 19. (월) 09:00 ~ 10. 20. (화) 18:00"
-      },
-      "announce": {
-        "date": "2026-10-21",
-        "time": "14:00",
-        "raw": "‘26. 10. 21. (수) 14:00"
-      },
-      "documentsRaw": "‘26. 10. 21. (수) ~ 10. 28. (수)",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6702&menuNo=400008",
-      "applyUrl": "https://naver.me/xrzQWyyr",
-      "summary": "총 270세대 중 금회 추가모집 공공지원민간임대 7세대 (특별공급 1세대, 일반공급 6세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6701",
-      "source": "soco",
-      "category": "housing",
-      "title": "길동역 길동생활(A동) 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "강동구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-15",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-19",
-        "startTime": "09:00",
-        "endDate": "2026-10-20",
-        "endTime": "18:00",
-        "raw": "‘26. 10. 19. (월) 09:00 ~ 10. 20. (화) 18:00"
-      },
-      "announce": {
-        "date": "2026-10-21",
-        "time": "14:00",
-        "raw": "‘26. 10. 21. (수) 14:00"
-      },
-      "documentsRaw": "‘26. 10. 21. (수) ~ 10. 28. (수)",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6701&menuNo=400008",
-      "applyUrl": "https://naver.me/xrzQWyyr",
-      "summary": "총 297세대 중 금회 추가모집 공공지원민간임대 7세대 (특별공급 1세대, 일반공급 6세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6700",
-      "source": "soco",
-      "category": "housing",
-      "title": "화곡역 포르투나블루 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "강서구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-15",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-10-16",
-        "startTime": "00:00",
-        "endDate": "2026-10-19",
-        "endTime": "23:00",
-        "raw": "‘26. 10. 16. (금) ~ 10. 19. (월) 00:00 ~ 23:00"
-      },
-      "announce": {
-        "date": "2026-10-20",
-        "time": "11:00",
-        "raw": "‘26. 10. 20. (화) 11:00"
-      },
-      "documentsRaw": "~‘26. 10. 21. (수)",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6700&menuNo=400008",
-      "applyUrl": "https://naver.me/xfbAfxDu",
-      "summary": "총 67세대 중 금회 추가모집 공공지원민간임대 1세대 (일반공급 1세대)",
       "changed": null
     },
     {
@@ -29690,6 +29690,82 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=748938&bnefType=all&svcId=WII000001600",
       "applyUrl": null,
       "summary": "위기청소년에게 생활, 건강, 자립, 상담, 법률, 활동 지원 (지원내용별 금액 상이)",
+      "changed": null
+    },
+    {
+      "id": "myhome:21591",
+      "source": "myhome",
+      "category": "housing",
+      "title": "서울삼전,강동천호,LH수서1,LH수서2 행복주택 예비입주자 모집공고",
+      "org": "LH",
+      "kind": "행복주택",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "date",
+        "startDate": "2026-11-30",
+        "startTime": null,
+        "endDate": "2026-12-01",
+        "endTime": null,
+        "raw": "20261130 ~ 20261201"
+      },
+      "announce": {
+        "date": "2027-03-26",
+        "time": null,
+        "raw": "20270326"
+      },
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21591&houseSn=4",
+      "applyUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021098&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
+      "summary": "행복주택 390호",
+      "changed": null
+    },
+    {
+      "id": "myhome:21586",
+      "source": "myhome",
+      "category": "housing",
+      "title": "2026년 서울특별시 영구임대주택 예비입주자 모집",
+      "org": "LH",
+      "kind": "영구임대",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2026-11-19",
+      "apply": {
+        "status": "date",
+        "startDate": "2026-11-30",
+        "startTime": null,
+        "endDate": "2026-12-04",
+        "endTime": null,
+        "raw": "20261130 ~ 20261204"
+      },
+      "announce": {
+        "date": "2027-03-25",
+        "time": null,
+        "raw": "20270325"
+      },
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21586&houseSn=1",
+      "applyUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021109&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=09&mi=1026",
+      "summary": "영구임대 159호",
       "changed": null
     },
     {
