@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T21:00:04+09:00",
+  "generatedAt": "2026-11-25T06:00:05+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-24T21:00:04+09:00",
+      "fetchedAt": "2026-11-25T06:00:05+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,7 +14,7 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-24T21:00:04+09:00",
+      "fetchedAt": "2026-11-25T06:00:05+09:00",
       "itemCount": 838,
       "error": null
     },
@@ -22,7 +22,7 @@
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-24T21:00:04+09:00",
+      "fetchedAt": "2026-11-25T06:00:05+09:00",
       "itemCount": 9,
       "error": null
     }
