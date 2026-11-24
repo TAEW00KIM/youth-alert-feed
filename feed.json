@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T11:00:02+09:00",
+  "generatedAt": "2026-11-24T16:00:05+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-24T11:00:02+09:00",
+      "fetchedAt": "2026-11-24T16:00:05+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,7 +14,7 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-24T11:00:02+09:00",
+      "fetchedAt": "2026-11-24T16:00:05+09:00",
       "itemCount": 838,
       "error": null
     },
@@ -22,12 +22,50 @@
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-24T11:00:02+09:00",
-      "itemCount": 7,
+      "fetchedAt": "2026-11-24T16:00:05+09:00",
+      "itemCount": 9,
       "error": null
     }
   ],
   "items": [
+    {
+      "id": "soco:6833",
+      "source": "soco",
+      "category": "housing",
+      "title": "돌곶이역 화랑어반트리움 최초모집",
+      "org": "서울시 청년안심주택(민간임대)",
+      "kind": "민간임대 최초모집",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": "성북구",
+        "scope": "local"
+      },
+      "postedDate": "2026-11-24",
+      "apply": {
+        "status": "datetime",
+        "startDate": "2026-12-05",
+        "startTime": "00:00",
+        "endDate": "2026-12-07",
+        "endTime": "23:00",
+        "raw": "‘26. 12. 05. (토) 00:00 ~ 12. 07. (월) 23:00"
+      },
+      "announce": {
+        "date": "2026-12-09",
+        "time": "17:00",
+        "raw": "‘26. 12. 09. (수) 17:00"
+      },
+      "documentsRaw": "‘26. 12. 10. (목) ~ 12. 11. (금)",
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6833&menuNo=400008",
+      "applyUrl": "https://hut2026.com",
+      "summary": "총 242세대 중 공공지원민간임대 180세대 (특별공급 36세대, 일반공급 144세대)",
+      "changed": null
+    },
     {
       "id": "soco:6806",
       "source": "soco",
@@ -1128,44 +1166,6 @@
       "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6714&menuNo=400008",
       "applyUrl": "https://naver.me/5WUkHXw7",
       "summary": "총 98세대 중 금회 추가모집 공공지원민간임대 2세대 (일반공급 2세대)",
-      "changed": null
-    },
-    {
-      "id": "soco:6711",
-      "source": "soco",
-      "category": "housing",
-      "title": "영등포구청역 포레나당산 추가모집",
-      "org": "서울시 청년안심주택(민간임대)",
-      "kind": "민간임대 추가모집",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": "영등포구",
-        "scope": "local"
-      },
-      "postedDate": "2026-10-29",
-      "apply": {
-        "status": "datetime",
-        "startDate": "2026-11-02",
-        "startTime": "10:00",
-        "endDate": "2026-11-02",
-        "endTime": "23:00",
-        "raw": "‘26. 11. 02. (월) 10:00 ~ 23:00"
-      },
-      "announce": {
-        "date": "2026-11-04",
-        "time": "15:00",
-        "raw": "‘26. 11. 04. (수) 15:00"
-      },
-      "documentsRaw": "추후 개별 연락",
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6711&menuNo=400008",
-      "applyUrl": "https://naver.me/GJZnjeB2",
-      "summary": "총 409세대 중 금회 추가모집 공공지원민간임대 예비자 모집",
       "changed": null
     },
     {
@@ -29666,6 +29666,82 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=748938&bnefType=all&svcId=WII000001600",
       "applyUrl": null,
       "summary": "위기청소년에게 생활, 건강, 자립, 상담, 법률, 활동 지원 (지원내용별 금액 상이)",
+      "changed": null
+    },
+    {
+      "id": "myhome:21605",
+      "source": "myhome",
+      "category": "housing",
+      "title": "[서울지역본부] 고령자 매입임대주택 예비입주자 모집공고",
+      "org": "LH",
+      "kind": "매입임대",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2026-11-24",
+      "apply": {
+        "status": "date",
+        "startDate": "2026-12-21",
+        "startTime": null,
+        "endDate": "2026-12-23",
+        "endTime": null,
+        "raw": "20261221 ~ 20261223"
+      },
+      "announce": {
+        "date": "2027-04-30",
+        "time": null,
+        "raw": "20270430"
+      },
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21605",
+      "applyUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021105&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "summary": "매입임대 110호",
+      "changed": null
+    },
+    {
+      "id": "myhome:21604",
+      "source": "myhome",
+      "category": "housing",
+      "title": "[서울지역본부] 일반 매입임대주택 예비입주자 모집공고",
+      "org": "LH",
+      "kind": "매입임대",
+      "region": {
+        "sido": "서울특별시",
+        "sigungu": null,
+        "scope": "local"
+      },
+      "postedDate": "2026-11-24",
+      "apply": {
+        "status": "date",
+        "startDate": "2026-12-21",
+        "startTime": null,
+        "endDate": "2026-12-23",
+        "endTime": null,
+        "raw": "20261221 ~ 20261223"
+      },
+      "announce": {
+        "date": "2027-04-30",
+        "time": null,
+        "raw": "20270430"
+      },
+      "documentsRaw": null,
+      "eligibility": {
+        "ageMin": null,
+        "ageMax": null,
+        "ageKnown": false,
+        "note": "자격은 원문 공고문에서 확인"
+      },
+      "url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21604",
+      "applyUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021086&ccrCnntSysDsCd=03&uppAisTpCd=13&aisTpCd=26&mi=1026",
+      "summary": "매입임대 215호",
       "changed": null
     },
     {
