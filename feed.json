@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T21:00:01+09:00",
+  "generatedAt": "2026-11-26T06:00:02+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-25T21:00:01+09:00",
+      "fetchedAt": "2026-11-26T06:00:02+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,7 +14,7 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-25T21:00:01+09:00",
+      "fetchedAt": "2026-11-26T06:00:02+09:00",
       "itemCount": 838,
       "error": null
     },
@@ -22,7 +22,7 @@
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-25T21:00:01+09:00",
+      "fetchedAt": "2026-11-26T06:00:02+09:00",
       "itemCount": 8,
       "error": null
     }
@@ -19923,11 +19923,11 @@
       "postedDate": "2024-11-26",
       "apply": {
         "status": "date",
-        "startDate": "2025-11-19",
+        "startDate": "2026-11-25",
         "startTime": null,
-        "endDate": "2025-12-05",
+        "endDate": "2026-12-14",
         "endTime": null,
-        "raw": "2025.11.19~2025.12.05"
+        "raw": "2026.11.25~2026.12.14"
       },
       "announce": null,
       "documentsRaw": null,
@@ -19940,12 +19940,20 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2127210&bnefType=all&svcId=490000000280",
       "applyUrl": null,
       "summary": "18세 ~ 49세인 무주택이며 취.창업 준비 청년에게 월세 1만원인 청년하우스 공급",
-      "changed": null,
+      "changed": {
+        "field": "apply.end",
+        "previous": "2025-12-05",
+        "detectedAt": "2026-11-26T06:00:02+09:00"
+      },
       "noticeUrl": null,
       "facts": [
         {
           "label": "지원 내용",
           "value": "사업내용 : 보증금 50만원, 임대료 월 1만원 거주 공간 제공\n사업대상 : 18세 ~ 49세 무주택이며 취.창업을 준비중인 청년\n지원기간 : 1년\n모집물량 : 화순군에 전입하고자 하는 청년 12명(남 6, 여 6)"
+        },
+        {
+          "label": "신청 방법",
+          "value": "정부24온라인신청"
         },
         {
           "label": "문의",
