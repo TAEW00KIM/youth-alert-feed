@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T06:00:05+09:00",
+  "generatedAt": "2026-11-25T11:00:01+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-25T06:00:05+09:00",
+      "fetchedAt": "2026-11-25T11:00:01+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,7 +14,7 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-25T06:00:05+09:00",
+      "fetchedAt": "2026-11-25T11:00:01+09:00",
       "itemCount": 838,
       "error": null
     },
@@ -22,7 +22,7 @@
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-25T06:00:05+09:00",
+      "fetchedAt": "2026-11-25T11:00:01+09:00",
       "itemCount": 9,
       "error": null
     }
@@ -62,7 +62,7 @@
         "note": "자격은 원문 공고문에서 확인"
       },
       "url": "https://soco.seoul.go.kr/youth/bbs/BMSR00015/view.do?boardId=6833&menuNo=400008",
-      "applyUrl": "https://hut2026.com",
+      "applyUrl": "https://naver.me/Fka1YiuR",
       "summary": "총 242세대 중 공공지원민간임대 180세대 (특별공급 36세대, 일반공급 144세대)",
       "changed": null
     },
