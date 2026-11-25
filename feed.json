@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T11:00:01+09:00",
+  "generatedAt": "2026-11-25T12:33:21+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-25T11:00:01+09:00",
+      "fetchedAt": "2026-11-25T12:33:21+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,7 +14,7 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-25T11:00:01+09:00",
+      "fetchedAt": "2026-11-25T12:33:21+09:00",
       "itemCount": 838,
       "error": null
     },
@@ -22,8 +22,8 @@
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-25T11:00:01+09:00",
-      "itemCount": 9,
+      "fetchedAt": "2026-11-25T12:33:21+09:00",
+      "itemCount": 8,
       "error": null
     }
   ],
@@ -29682,12 +29682,12 @@
       },
       "postedDate": "2026-11-24",
       "apply": {
-        "status": "date",
-        "startDate": "2026-12-21",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-23",
+        "endDate": null,
         "endTime": null,
-        "raw": "20261221 ~ 20261223"
+        "raw": "접수 12/21~12/23. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-04-30",
@@ -29720,12 +29720,12 @@
       },
       "postedDate": "2026-11-24",
       "apply": {
-        "status": "date",
-        "startDate": "2026-12-21",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-23",
+        "endDate": null,
         "endTime": null,
-        "raw": "20261221 ~ 20261223"
+        "raw": "접수 12/21~12/23. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-04-30",
@@ -29758,12 +29758,12 @@
       },
       "postedDate": "2026-11-19",
       "apply": {
-        "status": "date",
-        "startDate": "2026-11-30",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-01",
+        "endDate": null,
         "endTime": null,
-        "raw": "20261130 ~ 20261201"
+        "raw": "접수 11/30~12/1. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-03-26",
@@ -29783,44 +29783,6 @@
       "changed": null
     },
     {
-      "id": "myhome:21591",
-      "source": "myhome",
-      "category": "housing",
-      "title": "서울삼전,강동천호,LH수서1,LH수서2 행복주택 예비입주자 모집공고",
-      "org": "LH",
-      "kind": "행복주택",
-      "region": {
-        "sido": "서울특별시",
-        "sigungu": null,
-        "scope": "local"
-      },
-      "postedDate": "2026-11-19",
-      "apply": {
-        "status": "date",
-        "startDate": "2026-11-30",
-        "startTime": null,
-        "endDate": "2026-12-01",
-        "endTime": null,
-        "raw": "20261130 ~ 20261201"
-      },
-      "announce": {
-        "date": "2027-03-26",
-        "time": null,
-        "raw": "20270326"
-      },
-      "documentsRaw": null,
-      "eligibility": {
-        "ageMin": null,
-        "ageMax": null,
-        "ageKnown": false,
-        "note": "자격은 원문 공고문에서 확인"
-      },
-      "url": "https://www.myhome.go.kr/hws/portal/sch/selectRsdtRcritNtcDetailView.do?pblancId=21591&houseSn=4",
-      "applyUrl": "https://apply.lh.or.kr/lhapply/apply/wt/wrtanc/selectWrtancInfo.do?panId=2015122300021098&ccrCnntSysDsCd=03&uppAisTpCd=06&aisTpCd=10&mi=1026",
-      "summary": "행복주택 390호",
-      "changed": null
-    },
-    {
       "id": "myhome:21586",
       "source": "myhome",
       "category": "housing",
@@ -29834,12 +29796,12 @@
       },
       "postedDate": "2026-11-19",
       "apply": {
-        "status": "date",
-        "startDate": "2026-11-30",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-04",
+        "endDate": null,
         "endTime": null,
-        "raw": "20261130 ~ 20261204"
+        "raw": "접수 11/30~12/4. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-03-25",
@@ -29872,12 +29834,12 @@
       },
       "postedDate": "2026-03-24",
       "apply": {
-        "status": "date",
-        "startDate": "2026-03-24",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-31",
+        "endDate": null,
         "endTime": null,
-        "raw": "20260324 ~ 20261231"
+        "raw": "접수 3/24~12/31. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-02-26",
@@ -29910,12 +29872,12 @@
       },
       "postedDate": "2026-03-24",
       "apply": {
-        "status": "date",
-        "startDate": "2026-03-24",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-31",
+        "endDate": null,
         "endTime": null,
-        "raw": "20260324 ~ 20261231"
+        "raw": "접수 3/24~12/31. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-02-26",
@@ -29948,12 +29910,12 @@
       },
       "postedDate": "2026-03-24",
       "apply": {
-        "status": "date",
-        "startDate": "2026-03-24",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-31",
+        "endDate": null,
         "endTime": null,
-        "raw": "20260324 ~ 20261231"
+        "raw": "접수 3/24~12/31. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-02-26",
@@ -29986,12 +29948,12 @@
       },
       "postedDate": "2026-02-24",
       "apply": {
-        "status": "date",
-        "startDate": "2026-02-24",
+        "status": "unknown",
+        "startDate": null,
         "startTime": null,
-        "endDate": "2026-12-31",
+        "endDate": null,
         "endTime": null,
-        "raw": "20260224 ~ 20261231"
+        "raw": "접수 2/24~12/31. 1순위, 2순위로 나뉜 공고는 1순위 마감이 더 빨라요. 마감일은 원문에서 확인하세요."
       },
       "announce": {
         "date": "2027-01-31",
