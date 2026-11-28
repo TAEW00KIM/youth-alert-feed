@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T06:00:01+09:00",
+  "generatedAt": "2026-11-28T11:00:01+09:00",
   "sources": [
     {
       "id": "soco",
       "name": "서울 청년안심주택",
       "status": "ok",
-      "fetchedAt": "2026-11-28T06:00:01+09:00",
+      "fetchedAt": "2026-11-28T11:00:01+09:00",
       "itemCount": 30,
       "error": null
     },
@@ -14,7 +14,7 @@
       "id": "gov24",
       "name": "보조금24",
       "status": "ok",
-      "fetchedAt": "2026-11-28T06:00:01+09:00",
+      "fetchedAt": "2026-11-28T11:00:01+09:00",
       "itemCount": 841,
       "error": null
     },
@@ -22,7 +22,7 @@
       "id": "myhome",
       "name": "마이홈 LH",
       "status": "ok",
-      "fetchedAt": "2026-11-28T06:00:01+09:00",
+      "fetchedAt": "2026-11-28T11:00:01+09:00",
       "itemCount": 8,
       "error": null
     }
@@ -24309,11 +24309,7 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2168016&bnefType=all&svcId=560000000143",
       "applyUrl": null,
       "summary": "관내 공공임대주택(송우파인빌, 포천헤리센트)에 거주하는 청년·신혼부부에게 주거비 지원",
-      "changed": {
-        "field": "apply.end",
-        "previous": "2026-11-30",
-        "detectedAt": "2026-11-21T06:00:02+09:00"
-      },
+      "changed": null,
       "noticeUrl": null,
       "facts": [
         {
@@ -24362,11 +24358,7 @@
       "url": "https://plus.gov.kr/portal/benefitV2/benefitTotalSrvcList/benefitSrvcDtl?svcSeq=2179119&bnefType=all&svcId=560000000144",
       "applyUrl": null,
       "summary": "관내공공임대주택(송우파인빌, 행복주택)에 거주하는 청년·신혼부부에게 주거비 지원",
-      "changed": {
-        "field": "apply.end",
-        "previous": "2026-07-10",
-        "detectedAt": "2026-11-21T06:00:02+09:00"
-      },
+      "changed": null,
       "noticeUrl": null,
       "facts": [
         {
